@@ -52,11 +52,11 @@ function Formulario() {
       setAlert(false)
     }
     else{
-      setAlert("registro exitoso")
+      setAlert("Registro exitoso")
       setAlert(true)
     }
     if(contrasena != contrasena2){
-      setAlert("las contraseñas deben ser iguales")
+      setAlert("Las contraseñas deben ser iguales")
     }
   }
 
